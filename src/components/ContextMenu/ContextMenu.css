@@ -1,0 +1,31 @@
+.contextMenu-div {
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 8px 0;
+}
+
+.contextMenu-item {
+    padding: 5px 15px;
+    margin: 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+
+    
+}
+
+.contextMenu-item:hover {
+    background-color: #f0f0f0;
+}
+
+.contextMenu-item-danger {
+    color: #ff3b30;
+}
+
+.contextMenu-item-danger:hover {
+    background-color: #ff3b30;
+    color: #fff;
+}

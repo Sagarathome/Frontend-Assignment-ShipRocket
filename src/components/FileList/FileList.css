@@ -1,0 +1,31 @@
+
+.file-list-container{
+    width: 90%;
+    background-color: #1F1F1C;
+}
+
+.folder-font-style{
+    font-size: 12px;
+    margin-top: 2px !important;
+}
+.rename-input{
+    background: transparent;
+    border: 1px solid;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+    
+}
+.active-background{
+    background-color: #373635;
+    border-radius: 7px;
+}
+.active-text-background{
+    background-color: #007AFF;
+    border-radius: 3px;
+}
+
+.breadcrumb-style{
+    font-size: 15px;
+    color: white;
+}
