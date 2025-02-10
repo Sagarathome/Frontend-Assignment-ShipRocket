@@ -34,6 +34,10 @@ const FileList: React.FC = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
+  
+  useEffect(()=>{
+    navigate("/")
+  },[])
 
   useEffect(() => {
     if (folderId) {
