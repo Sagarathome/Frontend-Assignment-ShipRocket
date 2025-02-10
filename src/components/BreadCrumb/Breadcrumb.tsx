@@ -2,7 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { RootState } from "../../redux/store";
 import BackButtonSvg from "../../assets/backbutton.svg"
-import "./BreadCrumb.css"
+import "./Breadcrumb.css"
 import { useNavigate, useParams } from "react-router-dom";
 
 
