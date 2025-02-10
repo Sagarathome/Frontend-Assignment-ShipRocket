@@ -183,10 +183,13 @@ const FileList: React.FC = () => {
 
   return (
     <>
-      
-      <div className='file-list-container position-relative' onDragOver={(e) => drag_over(e)} onDrop={(e) => drop(e)} onClick={clickOutSideHandler} onContextMenu={handleRightClick}>
-          <BreadCrumb/>
-        {mapFolder(Data)}
+        <div className='file-list-container position-relative' onDragOver={(e) => drag_over(e)} onDrop={(e) => drop(e)} onClick={clickOutSideHandler} onContextMenu={handleRightClick}>
+        <BreadCrumb />
+        {Data.length === 0 ? (
+          <div className='d-flex justify-content-center h-100 align-items-center no-found-color'> <h2>No Folder Found. Use Right Click to Create a New Folder</h2></div>
+        ) : (
+          mapFolder(Data)
+        )}
       </div>
       {isVisible && <ContextMenu position={position} setIsVisible={setIsVisible} setIsRename={setIsRename} />}
     </>
