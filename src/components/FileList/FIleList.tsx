@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import "./FileList.css";
 import ContextMenu from '../ContextMenu/ContextMenu';
 import { useDispatch, useSelector } from 'react-redux';
-import FolderSvg from "../../assets/folderimg.svg";
+import FolderSvg from "../../assets/folderImg.svg";
 import { activeFolder, renameFolder, updateFolderPosition, getFolderData, mergeFolder } from "../../redux/fileExplorerSlice";
 import { useNavigate, useParams } from 'react-router-dom';
 import BreadCrumb from '../BreadCrumb/Breadcrumb';
